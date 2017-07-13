@@ -280,7 +280,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle,
 .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:focus,
 .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:hover {
-    background-color: #999999;
+    background-color: transparent;
     color: #FFFFFF;
 }
 
@@ -296,7 +296,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-nav > li > a.btn.btn-default:focus,
 .navbar .navbar-nav > li > a.btn.btn-default:active,
 .navbar .navbar-nav > li > a.btn.btn-default:hover {
-    box-shadow: 0 14px 26px -12px rgba(153, 153, 153, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(153, 153, 153, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(26, 155, 222, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(26, 155, 222, 0.2);
 }
 
 .btn.disabled,
@@ -454,6 +454,12 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-default.active {
 .open > .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover {
     background-color: #1A9BDE;
     color: #FFFFFF;
+}
+
+.btn-border-primary {
+    background-color: none;
+    color: #1A9BDE;   
+    border: solid 1px #1A9BDE; 
 }
 
 .btn.btn-primary:focus,
