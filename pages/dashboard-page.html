@@ -97,97 +97,46 @@
                     <div class="row">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="row grey darken-4 no-margin p-5">
-                                    <div class="col-md-4 no-padding">
-                                        <ul class="nav nav-pills nav-pills-icons nav-stacked" role="tablist">
-                                            <li class="">
-                                                <a href="#dashboard-2" role="tab" data-toggle="tab" aria-expanded="false">
-                                                    <i class="fa fa-caret-square-o-down" aria-hidden="true"></i> Fondear MXN
-                                                </a>
-                                            </li>
-                                            <li class="active">
-                                                <a href="#schedule-2" role="tab" data-toggle="tab" aria-expanded="true">
-                                                    <i class="fa fa-caret-square-o-up" aria-hidden="true"></i> Retirar MXN
-                                                </a>
-                                            </li>
-                                        </ul>
+                                <div class="row card grey darken-4 no-margin">
+                                    <div class="col-lg-4 text-center p-l-10">
+                                        <div class="btn-group-vertical hidden-md hidden-sm hidden-xs">
+                                            <button class="btn btn-primary btn-border-primary height-120" type="button">
+                                                <i class="material-icons size-huge">archive</i>
+                                                <br/> Fondear
+                                            </button>
+                                            <button class="btn btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">unarchive</i>
+                                                <br/> Retirar
+                                            </button>
+                                        </div>
+                                        <div class="btn-group hidden-lg">
+                                            <button class="btn btn-primary btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">archive</i>
+                                                <br/> Fondear
+                                            </button>
+                                            <button class="btn btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">unarchive</i>
+                                                <br/> Retirar
+                                            </button>
+                                        </div>
                                     </div>
-                                    <div class="col-md-8 p-20">
-                                        <div class="tab-content text-center">
-                                            <div class="tab-pane" id="dashboard-2">
-                                                <div class="">
-        <h5 class="no-margin"><small>Saldo</small></h5>
-        <h4 class="card-title no-margin">$24,993.87<span class="grey-text darken-1">MXN</span></h4>
-        <ul class="nolist">
-            <li class="green-text"><i class="fa fa-circle" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="amber-text"><i class="fa fa-adjust" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="red-text"><i class="fa fa-circle-o" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="red-text"><i class="fa fa-clock-o" aria-hidden="true"></i> $123,456.78 </li>
-        </ul>  
-                                                </div>
-                                            </div>
+                                    <div class="col-lg-8">
+                                        <div class="text-center">
                                             <div class="tab-pane active" id="schedule-2">
                                                 <div class="">
-        <h5 class="no-margin"><small>Saldo</small></h5>
-        <h4 class="card-title no-margin">$45,993.87<span class="grey-text darken-1">MXN</span></h4>
-        <ul class="nolist">
-            <li class="green-text"><i class="fa fa-circle" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="amber-text"><i class="fa fa-adjust" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="red-text"><i class="fa fa-circle-o" aria-hidden="true"></i> $123,456.78 </li>
-            <li class="red-text"><i class="fa fa-clock-o" aria-hidden="true"></i> $123,456.78 </li>
-        </ul>  
+                                                    <h5 class=""><small>Saldo</small></h5>
+                                                    <h4 class="card-title">45,993.87<span class="grey-text darken-1">MXN</span></h4>
+                                                    <p class="bold green-text"><i class="fa fa-circle" aria-hidden="true"></i> 123,456.78 </p>
+                                                    <p class="bold amber-text"><i class="fa fa-adjust" aria-hidden="true"></i> 123,456.78 </p>
+                                                    <p class="bold red-text"><i class="fa fa-circle-o" aria-hidden="true"></i> 123,456.78 </p>
+                                                    <p class="bold red-text"><i class="fa fa-clock-o" aria-hidden="true"></i> 123,456.78 </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-<!--
-
-                            <div class="col-md-4">
-                                <div class="row grey darken-4 no-margin p-5">
-                                    <div class="col-md-4 no-padding">
-        <div class="btn-group-vertical">
-            <button class="btn btn-block btn-primary btn-border-primary" type="button"><i class="material-icons">archive</i>Fondear</button>
-            <button class="btn btn-block btn-border-primary" type="button"><i class="material-icons">unarchive</i> Retirar</button>
-        </div>  
-                                    </div>
-                                    <div class="col-md-8 text-center">
-        <h5 class=""><small>Saldo</small></h5>
-        <h4 class="card-title">$45,993.87<span class="grey-text darken-1">MXN</span></h4>
-        <ul class="nolist">
-            <li><i class="fa fa-circle" aria-hidden="true"></i> $123,456.78 <span class="bold small green-text">(39/40)</span></li>
-            <li><i class="fa fa-adjust" aria-hidden="true"></i> $123,456.78 <span class="bold small amber-text">(20/40)</span></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i> $123,456.78 <span class="bold small red-text">(1/40)</span></li>
-            <li><i class="fa fa-clock-o" aria-hidden="true"></i> $123,456.78 <span class="bold small red-text">(0/40)</span></li>
-        </ul>  
-                                    </div>
-                                </div>
-                            </div>
-<div class="col-md-4">
-<div class="row card grey darken-4 no-margin text-center">
-    <div class="col-md-3">
-        <div class="btn-group-vertical">
-            <button class="btn btn-block btn-primary btn-border-primary" type="button"><i class="material-icons">archive</i>Fondear</button>
-            <button class="btn btn-block btn-border-primary" type="button"><i class="material-icons">unarchive</i> Retirar</button>
-        </div>        
-    </div>
-    <div class="col-md-9">
-        <h5 class=""><small>Saldo</small></h5>
-        <h4 class="card-title">$45,993.87<span class="grey-text darken-1">MXN</span></h4>
-        <ul class="nolist">
-            <li><i class="fa fa-circle" aria-hidden="true"></i> $123,456.78 <span class="bold small green-text">(39/40)</span></li>
-            <li><i class="fa fa-adjust" aria-hidden="true"></i> $123,456.78 <span class="bold small amber-text">(20/40)</span></li>
-            <li><i class="fa fa-circle-o" aria-hidden="true"></i> $123,456.78 <span class="bold small red-text">(1/40)</span></li>
-            <li><i class="fa fa-clock-o" aria-hidden="true"></i> $123,456.78 <span class="bold small red-text">(0/40)</span></li>
-        </ul>        
-    </div>
-    
-    </div>
-</div>-->
-
-
+                            
                             <div class="col-md-4">
                                 <div class="row grey darken-4 p-5">
                                     <ul class="nav nav-pills nav-pills-primary" role="tablist">
@@ -230,6 +179,44 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-md-4">
+                                <div class="row card grey darken-4 no-margin">
+                                    <div class="col-lg-4 text-center p-l-10">
+                                        <div class="btn-group-vertical hidden-md hidden-sm hidden-xs">
+                                            <button class="btn btn-primary btn-border-primary height-120" type="button">
+                                                <i class="material-icons size-huge">archive</i>
+                                                <br/> Fondear
+                                            </button>
+                                            <button class="btn btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">unarchive</i>
+                                                <br/> Retirar
+                                            </button>
+                                        </div>
+                                        <div class="btn-group hidden-lg">
+                                            <button class="btn btn-primary btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">archive</i>
+                                                <br/> Fondear
+                                            </button>
+                                            <button class="btn btn-border-primary height-120" type="button" style="height: 120px">
+                                                <i class="material-icons size-huge">unarchive</i>
+                                                <br/> Retirar
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="text-center">
+                                            <div class="tab-pane active" id="schedule-2">
+                                                <div class="">
+                                                    <h5 class=""><small>Saldo</small></h5>
+                                                    <h4 class="card-title">4.999929<span class="grey-text darken-1">BTC</span></h4>
+                                                    <p class="bold green-text"><i class="fa fa-circle" aria-hidden="true"></i> 0.299929 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!--
                             <div class="col-md-4">
                                 <div class="row grey darken-4 no-margin p-5">
                                     <div class="col-md-4 no-padding">
@@ -265,7 +252,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
+
+
                         </div>
                     </div>
                 </div>

@@ -282,6 +282,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .open > .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:hover {
     background-color: transparent;
     color: #FFFFFF;
+    font-weight: 600;
 }
 
 .btn:focus,

@@ -439,7 +439,7 @@
 .size-normal { font-size: 100% !important; }
 .size-medium { font-size: 125% !important; }
 .size-big, .size-large { font-size: 150% !important; }
-.size-huge { font-size: 200% !important; }
+.size-huge { font-size: 300% !important; }
 .inherit { font: inherit; }
 .no-wrap { white-space: nowrap; }
 .auto-cell-size { white-space: nowrap; width:1%; }
@@ -541,6 +541,10 @@ textarea.noresize { resize:none; }
 
 .height-200 {
   height: 200px;
+}
+
+.height-120 {
+  height: 120px;
 }
 
 .height-50 {
