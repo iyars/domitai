@@ -1579,7 +1579,7 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-rose.active {
 .btn-group-sm .btn,
 .navbar .navbar-nav > li > a.btn.btn-sm,
 .btn-group-sm .navbar .navbar-nav > li > a.btn {
-    padding: 5px 20px;
+    padding: 0px 20px;
     font-size: 11px;
 }
 
@@ -10079,6 +10079,8 @@ select.selectpicker {
 
 thead {
     background-color: #188AD3;;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 p.roboto {
