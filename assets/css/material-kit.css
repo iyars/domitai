@@ -10080,3 +10080,7 @@ select.selectpicker {
 thead {
     background-color: #188AD3;
 }
+
+p.roboto {
+    font-family: 'Roboto', sans-serif !important;
+}

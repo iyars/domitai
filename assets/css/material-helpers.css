@@ -556,7 +556,7 @@ textarea.noresize { resize:none; }
 }
 
 .valign-container {
-  height: 260px;
+  min-height: 260px;
   line-height: 260px;
   text-align: center;
 }
