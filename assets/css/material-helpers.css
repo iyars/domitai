@@ -539,6 +539,10 @@ textarea.noresize { resize:none; }
   padding-left:7px;
 }
 
+.height-260 {
+  min-height: 260px;
+}
+
 .height-200 {
   height: 200px;
 }
