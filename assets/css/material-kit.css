@@ -5531,7 +5531,7 @@ hr.on-light {
 .table > thead > tr > td,
 .table > tbody > tr > td,
 .table > tfoot > tr > td {
-    padding: 12px 8px;
+    padding: 7px 8px;
     vertical-align: middle;
 }
 
@@ -10088,6 +10088,7 @@ p.roboto {
 tbody.roboto {
     font-family: 'Roboto', sans-serif !important;
     font-weight: 200;
+    font-size: 12px;
 }
 
 tbody td:nth-of-type(odd),
