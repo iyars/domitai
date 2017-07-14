@@ -10078,9 +10078,20 @@ select.selectpicker {
 }
 
 thead {
-    background-color: #188AD3;
+    background-color: #188AD3;;
 }
 
 p.roboto {
     font-family: 'Roboto', sans-serif !important;
+}
+
+tbody.roboto {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 200;
+}
+
+tbody td:nth-of-type(odd),
+tbody tr:nth-of-type(odd),
+thead th:nth-of-type(odd){
+    background:rgba(50, 50, 50,0.30);
 }
