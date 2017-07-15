@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="history-page">
+                                <a href="history-page.html">
                                     <i class="material-icons">history</i> Historial
                                 </a>
                             </li>
@@ -74,86 +74,130 @@
         <div class="section pad-t-only">
             <div class="container">
                 <div class="title">
-                    <h2>Perfil</h2>
+                    <h2>Historial de transacciones</h2>
                 </div>
-                <form action="#" method="#" class="p-b-30">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Nombre(s)</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Apellidos</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">email</label>
-                                <input class="form-control" type="email">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Dirección 1</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Dirección 2</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Dirección 3</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group label-floating is-empty">
-                                        <label class="control-label">Ciudad</label>
-                                        <input class="form-control" type="text">
-                                        <span class="material-input"></span>
-                                    </div>                                    
+                <div class="row card grey darken-4 height-260 no-margin">
+                    <ul class="nav nav-tabs bold text-center no-padding" role="tablist">
+                        <li class="col-xs-4 no-padding">
+                            <a href="#trades" role="tab" data-toggle="tab">Trades</a>
+                        </li>
+                        <li class="active col-xs-4 no-padding">
+                            <a href="#fondeos" role="tab" data-toggle="tab">Fondeos</a>
+                        </li>
+                        <li class="active col-xs-4 no-padding">
+                            <a href="#retiros" role="tab" data-toggle="tab">Retiros</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-h-10">
+                        <div class="tab-pane active p-20" id="trades">
+                            <h4>Trades</h4>
+                            <div class="row text-center">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Fecha</th>
+                                                <th class="text-center">Acción</th>
+                                                <th class="text-center">Precio</th>
+                                                <th class="text-center">Comisión</th>
+                                                <th class="text-center">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="roboto">
+                                            <tr>
+                                                <td class="text-center">14/03/2017 18:40:23</td>
+                                                <td class="text-center">Compraste 0.03309076 ETH por $110.90 MXN</td>
+                                                <td class="text-center">$3,354.41 MXN</td>
+                                                <td class="text-center">0.03309076 ETH</td>
+                                                <td class="text-center">0.03309076 ETH</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group label-floating is-empty">
-                                        <label class="control-label">Estado</label>
-                                        <input class="form-control" type="text">
-                                        <span class="material-input"></span>
-                                    </div>                                    
+                                <div class="btn-group">
+                                    <button class="btn btn-round btn-info" type="button">1</button>
+                                    <button class="btn btn-round btn-info" type="button">2</button>
+                                    <button class="btn btn-round btn-info" type="button">3
+                                        <div class="ripple-container"></div>
+                                    </button>
+                                    <button class="btn btn-round btn-info" type="button">4</button>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group label-floating is-empty">
-                                        <label class="control-label">País</label>
-                                        <input class="form-control" type="text">
-                                        <span class="material-input"></span>
-                                    </div>                                    
+                        </div>
+                        <div class="tab-pane p-20" id="fondeos">
+                            <h4>Fondeos</h4>
+                            <div class="row text-center">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Fecha</th>
+                                                <th class="text-center">Método</th>
+                                                <th class="text-center">Status</th>
+                                                <th class="text-center">Bruto</th>
+                                                <th class="text-center">Comisión</th>
+                                                <th class="text-center">Monto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="roboto">
+                                            <tr>
+                                                <td class="text-center">14/03/2017 18:40:23</td>
+                                                <td class="text-center">Ganancia por recompensas</td>
+                                                <td class="text-center">Completado</td>
+                                                <td class="text-center">--</td>
+                                                <td class="text-center">--</td>
+                                                <td class="text-center">$3.67 MXN</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group label-floating is-empty">
-                                        <label class="control-label">Código postal</label>
-                                        <input class="form-control" type="text">
-                                        <span class="material-input"></span>
-                                    </div>                                    
+                                <div class="btn-group">
+                                    <button class="btn btn-round btn-info" type="button">1</button>
+                                    <button class="btn btn-round btn-info" type="button">2</button>
+                                    <button class="btn btn-round btn-info" type="button">3
+                                        <div class="ripple-container"></div>
+                                    </button>
+                                    <button class="btn btn-round btn-info" type="button">4</button>
                                 </div>
                             </div>
-                            <div class="form-group label-floating is-empty">
-                                <label class="control-label">Teléfono celular</label>
-                                <input class="form-control" type="text">
-                                <span class="material-input"></span>
+                        </div>
+                        <div class="tab-pane p-20" id="retiros">
+                            <h4>Retiros</h4>
+                            <div class="row text-center">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">Fecha</th>
+                                                <th class="text-center">Método</th>
+                                                <th class="text-center">Status</th>
+                                                <th class="text-center">Bruto</th>
+                                                <th class="text-center">Comisión</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="roboto">
+                                            <tr>
+                                                <td class="text-center">14/03/2017 18:40:23</td>
+                                                <td class="text-center">Bitcoin (Ver)</td>
+                                                <td class="text-center">Completado</td>
+                                                <td class="text-center">0.04435643</td>
+                                                <td class="text-center">0.00050000 BTC</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>s
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-round btn-info" type="button">1</button>
+                                    <button class="btn btn-round btn-info" type="button">2</button>
+                                    <button class="btn btn-round btn-info" type="button">3
+                                        <div class="ripple-container"></div>
+                                    </button>
+                                    <button class="btn btn-round btn-info" type="button">4</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-primary" type="submit">Guardar</button>
-                </form>
-            </div>
-        </div>
-        <div class="section no-padding">
-            <div class="container">
+                </div>
             </div>
         </div>
     </div>
