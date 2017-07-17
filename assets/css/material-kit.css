@@ -4077,7 +4077,7 @@ h2.title {
 }
 
 .nav-tabs {
-    background: #1A9BDE;
+    /*background: #1A9BDE;*/
     border: 0;
     border-radius: 3px;
     padding: 0 15px;
@@ -4119,7 +4119,8 @@ h2.title {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    background: #1A9BDE;
     transition: background-color .1s .2s;
 }
 
