@@ -7053,7 +7053,7 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 .page-header .container {
-    padding-top: 226px;
+    padding-top: 15vh;
     color: #FFFFFF;
 }
 
